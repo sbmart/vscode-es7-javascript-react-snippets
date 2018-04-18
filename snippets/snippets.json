@@ -1019,6 +1019,16 @@
       ")(${3:ComponentName})"
     ]
   },
+  "FieldArrowFunction": {
+    "prefix": "faf",
+    "body": [ 
+      "fields: () => {",
+      "  return {",
+      "    ${1:fieldName}",
+      "  };",
+      "}"
+    ]
+},
   // ==============================================================================================
   // Other
   "hocComponentWithRedux": {

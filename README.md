@@ -33,7 +33,7 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 |  `enf→` | `export const functionName = (params) => { }`       |
 |  `edf→` | `export default (params) => { }`                    |
 |  `met→` | `methodName = (params) => { }`                      |
-|  `cn→`  | `const constName = new InstanceName();`                      |
+|  `cn→`  | `const constName = new InstanceName();`             |
 |  `fre→` | `arrayName.forEach(element => { }`                  |
 |  `fof→` | `for(let itemName of objectName { }`                |
 |  `fin→` | `for(let itemName in objectName { }`                |
@@ -131,6 +131,16 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 
 ```js
 export default compose(graphql($1, { name: $2 }))($3)
+```
+
+### `faf`
+
+```js
+    fields: () => {
+      return {
+        |
+      };
+    }
 ```
 
 ## Console
