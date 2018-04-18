@@ -33,6 +33,7 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 |  `enf→` | `export const functionName = (params) => { }`       |
 |  `edf→` | `export default (params) => { }`                    |
 |  `met→` | `methodName = (params) => { }`                      |
+|  `cn→`  | `const constName = new InstanceName();`                      |
 |  `fre→` | `arrayName.forEach(element => { }`                  |
 |  `fof→` | `for(let itemName of objectName { }`                |
 |  `fin→` | `for(let itemName in objectName { }`                |
